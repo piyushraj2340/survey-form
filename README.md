@@ -78,7 +78,7 @@ follow the steps to run the application on local machine
 
 ###### API Endpoints and Usage
 
-1. Create a Admin (POST /admin/signup)
+1. Create a Admin (POST `/admin/signup`)
 
 - **Description:** This endpoint allows you to add a new Admin to the database.
 
@@ -90,7 +90,7 @@ follow the steps to run the application on local machine
     }
   ```
 
-2. Login (POST /admin/login)
+2. Login (POST `/admin/login`)
 
 - **Description:** This endpoint allows you to sign-in the database.
 
@@ -104,7 +104,7 @@ follow the steps to run the application on local machine
   ```
 
 
-3. Add new survey to database (Post /api/v1/survey-form)
+3. Add new survey to database (Post `/api/v1/survey-form`)
 
 - **Description:** This endpoint allows you to add new survey into the database.
 
@@ -121,19 +121,19 @@ follow the steps to run the application on local machine
     }
   ```
 
-4. GET a list of all survey (GET /api/v1/survey-form)
+4. GET a list of all survey (GET `/api/v1/survey-form`)
 
 - **Description:** This endpoint allows you to Get the list of survey. Note that only admin will allow to view the data: you need to login too see the data.
 
-5. GET a single survey data (GET /api/v1/survey-form/:id)
+5. GET a single survey data (GET `/api/v1/survey-form/:id`)
 
 - **Description:** This endpoint allows you to Get the individual data of survey. Note that only admin will allow to view the data: you need to login too see the data.
 
-6. Edit a single survey data (PATCH /api/v1/survey-form/:id)
+6. Edit a single survey data (PATCH `/api/v1/survey-form/:id`)
 
 - **Description:** This endpoint allows you to Edit the individual data of survey. Note that only admin will allow to view the data: you need to login too see the data.
 
-7. Delete a single survey data (DELETE /api/v1/survey-form/:id)
+7. Delete a single survey data (DELETE `/api/v1/survey-form/:id`)
 
 - **Description:** This endpoint allows you to Delete the individual data of survey. Note that only admin will allow to view the data: you need to login too see the data.
 
